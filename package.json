@@ -1,0 +1,32 @@
+{
+  "name": "kick",
+  "version": "1.0.0",
+  "description": "Kick server for Streamy.gg, all kick related events will be handled on this server such as chat events, mod actions and everything else that happens on Twitch.",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StreamyGG/kick.git"
+  },
+  "keywords": [
+    "streamy.gg",
+    "kick"
+  ],
+  "author": "Bryden Calaway",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StreamyGG/kick/issues"
+  },
+  "homepage": "https://github.com/StreamyGG/kick#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "kient": "^1.0.1-16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.4"
+  }
+}
